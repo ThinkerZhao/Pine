@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <ctype.h>
-#include "../include/fy_base64.h"
+#include "../include/base64.h"
 
 
 /***************************************************************

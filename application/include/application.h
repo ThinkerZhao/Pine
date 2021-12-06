@@ -1,7 +1,7 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
-#include "../../platform/units/include/fy_base64.h"
+#include "../../platform/units/include/base64.h"
 
 #ifdef __cplusplus
 extern "C"
