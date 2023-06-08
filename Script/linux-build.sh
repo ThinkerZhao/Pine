@@ -13,8 +13,6 @@ echo "...#End build platform#..."
 echo ${PWD} >>./OUTPUT/log/build.log
 echo "...#Start build application#..." >>./OUTPUT/log/build.log
 echo ${TARGET} >>./OUTPUT/log/build.log
-rm -f ./test.exe
-gcc ./application/src/application.c ./platform/units/src/base64.c -o ./OUTPUT/target/application.exe
 cd application
     echo ${PWD} >>../OUTPUT/log/build.log; 
     mingw32-make; 

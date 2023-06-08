@@ -1,0 +1,23 @@
+#ifndef _VERSION_DEFINE_H_
+#define _VERSION_DEFINE_H_
+
+#define STR_VER(s) #s
+#define VESION_TO_STR(a, b, c)   "V"STR_VER(a)"."STR_VER(b)"."STR_VER(c)
+
+#ifdef PROJECT_BOOT
+#define BOOT_VERSION_MAX    0
+#define BOOT_VERSION_MID    0
+#define BOOT_VERSION_MIN    1
+
+#define VERSION_STR_BOOT    VESION_TO_STR(BOOT_VERSION_MAX, BOOT_VERSION_MID, BOOT_VERSION_MIN);
+#endif 
+
+#ifdef PROJECT_APP
+#define APP_VERSION_MAX    0
+#define APP_VERSION_MID    0
+#define APP_VERSION_MIN    1
+
+#define VERSION_STR_APP    VESION_TO_STR(APP_VERSION_MAX, APP_VERSION_MID, APP_VERSION_MIN);
+#endif
+
+#endif /* _VERSION_DEFINE_H_ */

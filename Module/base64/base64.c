@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <ctype.h>
-#include "../include/base64.h"
-
+#include "base64.h"
 
 /***************************************************************
  * @brief: base64解码接口
